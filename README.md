@@ -16,11 +16,39 @@ Each project focuses on core web concepts and user interactivity.
 
 ## 📁 Projects Included
 
-| Project Name        | Description                                | Live Demo |
-|---------------------|--------------------------------------------|------------|
-| 🎲 Dice Game         | A fun dice rolling game using JS logic     | [Play Now](#) |
-| ⏰ Digital Clock      | Real-time clock using Date object          | [View](#) |
-| 🔍 Search Filter      | Search and filter items using DOM & input | [Try it](#) |
-| 📋 To-Do List         | Task manager with add/delete functionality | [Open](#) |
-| 🎨 Color Changer      | Change background colors dynamically       | [Demo](#) |
+## 📁 Projects
+
+| S.No. | Project Name     | Description                              | Live Demo     |
+|-------|------------------|------------------------------------------|---------------|
+| 1     | 🧮 Calculator     | Basic calculator with UI & JS logic     | https://github.com/ratan1501/HTML-CSS-JS_Projects/tree/main/Calculator |
+| 2     | ⏳ Coming Soon    |                                          |               |
+| 3     | ⏳ Coming Soon    |                                          |               |
+| 4     | ⏳ Coming Soon    |                                          |               |
+| 5     | ⏳ Coming Soon    |                                          |               |
+| 6     | ⏳ Coming Soon    |                                          |               |
+| 7     | ⏳ Coming Soon    |                                          |               |
+| 8     | ⏳ Coming Soon    |                                          |               |
+| 9     | ⏳ Coming Soon    |                                          |               |
+| 10    | ⏳ Coming Soon    |                                          |               |
+| 11    | ⏳ Coming Soon    |                                          |               |
+| 12    | ⏳ Coming Soon    |                                          |               |
+| 13    | ⏳ Coming Soon    |                                          |               |
+| 14    | ⏳ Coming Soon    |                                          |               |
+| 15    | ⏳ Coming Soon    |                                          |               |
+| 16    | ⏳ Coming Soon    |                                          |               |
+| 17    | ⏳ Coming Soon    |                                          |               |
+| 18    | ⏳ Coming Soon    |                                          |               |
+| 19    | ⏳ Coming Soon    |                                          |               |
+| 20    | ⏳ Coming Soon    |                                          |               |
+| 21    | ⏳ Coming Soon    |                                          |               |
+| 22    | ⏳ Coming Soon    |                                          |               |
+| 23    | ⏳ Coming Soon    |                                          |               |
+| 24    | ⏳ Coming Soon    |                                          |               |
+| 25    | ⏳ Coming Soon    |                                          |               |
+| 26    | ⏳ Coming Soon    |                                          |               |
+| 27    | ⏳ Coming Soon    |                                          |               |
+| 28    | ⏳ Coming Soon    |                                          |               |
+| 29    | ⏳ Coming Soon    |                                          |               |
+| 30    | ⏳ Coming Soon    |                                          |               |
+
 
