@@ -14,8 +14,6 @@ Each project focuses on core web concepts and user interactivity.
 
 ---
 
-## 📁 Projects Included
-
 ## 📁 Projects
 
 | S.No. | Project Name     | Description                              | Live Demo     |
