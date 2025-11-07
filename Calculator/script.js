@@ -39,6 +39,3 @@ input.addEventListener('keydown', function (e) {
         e.preventDefault(); 
     }
 });
-
-
-//  maine newly js complete kiya hai par mujhe confidence nhi a raha is liye maine ek yt se calulator ka tutoria dekha par mujhe uske se js se kaffi confusion ho rha hai or mai tum ye js ki har ek line dunga tum use depth me or easy language me samjha dena jisse mere doubt clear  hojaye
