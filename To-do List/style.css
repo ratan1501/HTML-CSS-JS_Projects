@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(circle at top, #fef6e4, #fae7d3, #f7d7c4);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: floatingBg 20s ease-in-out infinite alternate;
+}
+
+@keyframes floatingBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(20px);
+    padding: 40px 30px 70px;
+    border-radius: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow:
+        0 12px 25px rgba(0,0,0,0.08),
+        0 4px 12px rgba(255,255,255,0.7) inset;
+    margin: 60px auto 20px;
+}
+
+.todo-app h2 {
+    color: #6a4e39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.todo-app h2 img {
+    width: 32px;
+    margin-left: 10px;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,0.2));
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #f8eee4;
+    border-radius: 40px;
+    padding-left: 22px;
+    margin-bottom: 25px;
+    border: 1px solid #f1dfcc;
+    box-shadow: inset 0 2px 4px rgba(255,255,255,0.7);
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #6a4e39;
+}
+
+button {
+    padding: 14px 34px;
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, #e8bfae, #d5a98c);
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(180,140,102,0.3);
+    transition: 0.25s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #d5a98c, #e8bfae);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(180,140,102,0.38);
+}
+
+ul li {
+    list-style: none;
+    padding: 14px 12px 14px 50px;
+    background: #fff6ec;
+    margin-bottom: 14px;
+    border-radius: 16px;
+    font-size: 17px;
+    color: #6a4e39;
+    border: 1px solid #f3e3d4;
+    box-shadow:
+        0 4px 10px rgba(0,0,0,0.06),
+        inset 0 2px 4px rgba(255,255,255,0.7);
+    position: relative;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+ul li:hover {
+    transform: translateY(-3px);
+    background: #fff2e4;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    top: 13px;
+    left: 12px;
+    opacity: 0.85;
+}
+
+ul li.checked {
+    text-decoration: line-through;
+    color: #a78d7a;
+}
+
+ul li.checked::before {
+    background-image: url(images/checked.png);
+    opacity: 1;
+}
+
+ul li span {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    font-size: 22px;
+    color: #b48e77;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+ul li span:hover {
+    background: #faece3;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+p.custom-text {
+    font-size: 14px;
+    color: #6b4f3b;
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+p.custom-text span {
+    font-weight: 600;
+    transition: color 0.4s ease, transform 0.3s ease, text-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+p.custom-text span span {
+    color: #22c55e;
+    font-weight: 700;
+    transition: 0.4s ease;
+}
+
+p.custom-text a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.4s ease, transform 0.3s ease, text-shadow 0.4s ease;
+}
+
+p.custom-text a:hover {
+    color: #1e293b;
+    transform: scale(1.06);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+}
+
+p.custom-text span:hover span,
+p.custom-text a:hover span {
+    color: #16a34a;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px) {
+    .todo-app {
+        padding: 30px 20px 55px;
+        margin: 40px 10px;
+    }
+
+    button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+}
