@@ -15,6 +15,7 @@ Each project focuses on core web concepts and user interactivity.
 ---
 
 📌 Live Projects
+
 ✅ 📝 Cozy To-Do List
 
 🔗 Live Demo: https://cozy-todo-list.netlify.app/
