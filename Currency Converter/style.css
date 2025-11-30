@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=DM+Serif+Text&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #f7e8df, #d6b89c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #5c4b51;
+}
+
+.currency-converter {
+    background: #ffffffcc;
+    padding: 35px;
+    width: 350px;
+    max-width: 90%;
+    border-radius: 22px;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.currency-converter h1 {
+    font-family: "DM Serif Text", serif;
+    font-size: 28px;
+    color: #5c4b51;
+    margin-bottom: 25px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.amount, .convertedAmount {
+    flex: 1 1 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #e6dcd2;
+    border-radius: 14px;
+    background: #faf3ee;
+    outline: none;
+    transition: 0.2s;
+    font-family: "Poppins", sans-serif;
+    color: #5c4b51;
+}
+
+.amount:focus, .convertedAmount:focus {
+    border-color: #c4aead;
+    background: #fff1eb;
+}
+
+.fromCurrency, .toCurrency {
+    flex: 1 1 100%;
+    padding: 12px 15px;
+    border-radius: 14px;
+    border: 2px solid #e6dcd2;
+    background: #faf3ee;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    font-family: "Poppins", sans-serif;
+    color: #5c4b51;
+}
+
+.fromCurrency:focus, .toCurrency:focus {
+    border-color: #c4aead;
+    background: #fff1eb;
+}
+
+.arrow {
+    font-size: 26px;
+    margin: 15px 0;
+    opacity: 0.7;
+    transform: rotate(90deg);
+    display: inline-block;
+    color: #5c4b51;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 12px;
+    background: #f3e2da;
+    color: #5c4b51;
+    font-weight: 500;
+    border-radius: 14px;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.05);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Import Raleway font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Footer container */
+footer {
+    text-align: center; /* Center content */
+    padding: 20px 0;
+    background-color: transparent; /* Transparent background */
+}
+
+/* Footer text */
+footer .custom-text {
+.nova-round-regular {
+  font-family: "Nova Round", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+/* Scriptan styling */
+footer .custom-text a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+/* Capital 'R' and green color */
+footer .custom-text a span {
+    color: #00FF00; /* Green color for R */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Glow effect on hover */
+footer .custom-text a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+}
+
+@media (max-width: 480px) {
+    .currency-converter {
+        padding: 25px;
+        width: 95%;
+    }
+
+    .currency-converter h1 {
+        font-size: 24px;
+    }
+
+    .arrow {
+        font-size: 22px;
+        margin: 12px 0;
+    }
+
+    .amount, .convertedAmount, .fromCurrency, .toCurrency {
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+
+    .result {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .currency-converter {
+        padding: 20px;
+    }
+
+    .currency-converter h1 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .arrow {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
